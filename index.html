@@ -1,8 +1,19 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-<h1>AskRelevance Widget</h1>
-<script src="https://cdn.jsdelivr.net/gh/RelevanceAI/ask-relevance-widget/dist/bundle.min.js" config="eyJ1cmwiOiJodHRwczovL2FwaS1mMWRiNmMuc3RhY2sudHJ5cmVsZXZhbmNlLmNvbS9sYXRlc3QvZGF0YXNldHMvYXNrLXJlbGV2YW5jZS1kb2NzLWFzay1yZWxldmFuY2Uvc2ltcGxlX3NlYXJjaCIsImZpZWxkIjoiY29udGVudCIsInZlY3Rvcl9maWVsZCI6ImNvbnRlbnRfdmVjdG9yXyIsImF1dGhfaGVhZGVyIjoiNmNmNDY2OTQ0OTM3LTQ5NjQtYWQ3OS1hZjUwMmVmYTU4MGQ6TnpjM09XWmlNemN0TXpabVlTMDBPR1JrTFdJeU1XTXRNREk1WTJWaVl6STBZVEk0IiwicmVmZXJlbmNlX3RpdGxlX2ZpZWxkIjoidGl0bGUiLCJyZWZlcmVuY2VfdXJsX2ZpZWxkIjoibGluayIsInNob3dEb2N1bWVudHMiOnRydWV9" defer />
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Widget Example</title>
+    <script src="https://cdn.jsdelivr.net/gh/RelevanceAI/ask-relevance-widget/dist/bundle.min.js" config="eyJ1cmwiOiJodHRwczovL2FwaS1mMWRiNmMuc3RhY2sudHJ5cmVsZXZhbmNlLmNvbS9sYXRlc3QvZGF0YXNldHMvYXNrLXJlbGV2YW5jZS1kb2NzLWFzay1yZWxldmFuY2Uvc2ltcGxlX3NlYXJjaCIsImZpZWxkIjoiY29udGVudCIsInZlY3Rvcl9maWVsZCI6ImNvbnRlbnRfdmVjdG9yXyIsImF1dGhfaGVhZGVyIjoiNmNmNDY2OTQ0OTM3LTQ5NjQtYWQ3OS1hZjUwMmVmYTU4MGQ6TnpjM01HVXdPV0l0TW1ZM01TMDBPRFEwTFdJek9UTXRNemRqTnpKaE16QTJPR0pqIiwicmVmZXJlbmNlX3RpdGxlX2ZpZWxkIjoidGl0bGUiLCJyZWZlcmVuY2VfdXJsX2ZpZWxkIjoibGluayIsImhlYWRsZXNzIjp0cnVlfQ==" defer></script>
+  </head>
+  <body>
+    <div id="my-widget"></div>
+    <script>
+      window.addEventListener('load', function() {
+        window.relevanceWidget.create({
+          target: '#my-widget',
+          // other options...
+        });
+      });
+    </script>
+  </body>
 </html>
